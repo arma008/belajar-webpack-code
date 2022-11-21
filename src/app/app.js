@@ -1,5 +1,5 @@
-import { parseInput } from "./utils/parseInput.js";
-import { cekInputValid } from "./utils/cekInputValid.js";
+import parseInput from "./utils/parseInput.js";
+import cekInputValid from "./utils/cekInputValid.js";
 
 export const run = (alertService, calculatorService, jokesService) => {
   alertService.sembunyikanError();
